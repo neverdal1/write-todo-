@@ -13,26 +13,29 @@
   </head>
   <body>
 
+    <header>
+      <nav role="navigation">
+        <div class="menu-toggle"><span>Menu</span></div>
+        <ul class="menu">
+          <li><a href="#"><span>Home</span></a></li>
+          <li><a href="#"><span>Learn More</span></a></li>
+          <li><a href="#"><span>Get Involved</span></a></li>
+          <li><a href="#"><span>Have Some Fun</span></a></li>
+          <li><a href="#"><span>Don't Miss Out</span></a></li>
+          <li><a href="#"><span>Get The Gear</span></a></li>
+        </ul>
+      </nav>
     
-    <main>
+    </header>
+  
+    
+    <main class="main">
     <form>
-    <div>
+      <div>
         
 
     </div>
-
-
-
-
-
-
   </form>
- 
-  
-  
-  
-   
-
 <!-- todo application:
   1. a place to write the todo
     -html form
@@ -42,20 +45,31 @@
     - DOM manipulatioin
   4. a list to return the prosessed todo to
      -DOM manipulation connecting step 1-3-->
-  
-  
 
+     
   <main>
-    <form >
-      <label for="taskInput"></label>
-      write a todo
-      <input type="text" name="taskInput" id="taskInput">
+    <form class="form">
+      
+      <div class="inputLabel">
+
+      '  <label for="taskInput">write a todo</label>
+
+          <input class="taskInput" 
+              type="text" 
+              name="taskInput" 
+              id="taskInput">
+            
+      </div>
+
+
+          <button class="taskButton" 
+             id ="taskButton">add todo
+          </button>
     
-    <button id="taskButton">add todo</button>
-    </form>
+      </form>
    
     <ul id="taskList">
-        <li>walk the dog</li>
+        <li class="newlistItam">walk the dog</li>
       </ul>
    </main>
 

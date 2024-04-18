@@ -19,9 +19,11 @@ const newListItem = document.createElement("li");
 console.log(newListItem)
 // modifiserer manipulerer 
 newListItem.textContent = taskInputData;
+newListItem.classList.add("newlistItam");
 
 const taskList = document.querySelector("#taskList");
 console.log(taskList)
+
 
 taskList.appendChild(newListItem);
 }
@@ -30,6 +32,21 @@ const taskButton = document.querySelector("#taskButton");
 console.log(taskButton)
 
 taskButton.addEventListener("click",addTodo);
+
+let menu = document.querySelector(".menu"),
+    toggle = document.querySelector(".menu-toggle");
+
+function toggleToggle() {
+  toggle.classList.toggle("menu-open");
+};
+
+function toggleMenu() {
+  menu.classList.toggle("active");
+};
+
+toggle.addEventListener("click", toggleToggle, false);
+toggle.addEventListener("click", toggleMenu, false);
+
 
 
 
