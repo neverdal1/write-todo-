@@ -9,6 +9,7 @@
 /* mod li */
 
 body {
+ 
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
@@ -43,6 +44,7 @@ nav a[aria-current='page'] {
 }
 
 main {
+ 
   padding: 1rem;
 }
 
@@ -88,7 +90,11 @@ flex-direction:column;
   cursor: pointer; /* Muspekeren som en peker */
   border-radius: 12px; 
 }
+
+
+
 nav {
+
   top: 0;
   right: 0;
   z-index: 1;
