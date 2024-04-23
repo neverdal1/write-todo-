@@ -1,6 +1,6 @@
-
-// 
+//orginal KODE i SCIPT.JS
 function addTodo(){
+
     
     event.preventDefault();
 console.log("button clicked")
@@ -48,7 +48,3 @@ toggle.addEventListener("click", toggleToggle, false);
 toggle.addEventListener("click", toggleMenu, false);
 
 
-
-
-
- 
