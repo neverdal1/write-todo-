@@ -52,10 +52,11 @@
     console.log(deleteButton);
 
     deleteButton.textContent = "delete todo"
+    deleteButton.classList.add("deleteButton");
     deleteButton.addEventListener("click",function () {
        
         console.log("click?") ; 
-          
+
         newlistItam.remove();
         deleteButton.remove();
     }) // her avslutter delete knappen
