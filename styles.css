@@ -106,7 +106,7 @@ nav {
     margin: 0;
     z-index: 1;
     width: 100%;
-    background: #FF7012;
+    background: #49ff12;
     padding: 3em 0 2em;
     position: absolute;
     transform: translateY(-100%);
@@ -155,7 +155,7 @@ nav {
     display: block;
     overflow: hidden;
     text-indent: 100%;
-    background: #FF7012;
+    background: #29f300;
     border-radius: 2px;
     white-space: nowrap;
     transition: background 0.3s ease-in-out;
@@ -230,4 +230,11 @@ nav {
       width: 18px;
     }
   }
+}
+.taskListcontainer{
+  display: flex;
+}
+.newlistItam{
+  background-color: #29f300;
+
 }

@@ -33,6 +33,8 @@ console.log(taskButton)
 
 taskButton.addEventListener("click",addTodo);
 
+
+//hører til navbar 
 let menu = document.querySelector(".menu"),
     toggle = document.querySelector(".menu-toggle");
 
@@ -46,5 +48,11 @@ function toggleMenu() {
 
 toggle.addEventListener("click", toggleToggle, false);
 toggle.addEventListener("click", toggleMenu, false);
+
+taskListcontainer.appendChild(newListItem);
+console.log(taskListcontainer);
+
+
+
 
 

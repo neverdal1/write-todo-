@@ -4,12 +4,9 @@
     <title>Home</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
+    
     <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
+    <script type="module" src="script3.js"></script>
   </head>
   <body class="border">
 
@@ -17,12 +14,10 @@
       <nav role="navigation">
         <div class="menu-toggle"><span>Menu</span></div>
         <ul class="menu">
-          <li><a href="#"><span>Home</span></a></li>
-          <li><a href="#"><span>Learn More</span></a></li>
-          <li><a href="#"><span>Get Involved</span></a></li>
-          <li><a href="#"><span>Have Some Fun</span></a></li>
-          <li><a href="#"><span>Don't Miss Out</span></a></li>
-          <li><a href="#"><span>Get The Gear</span></a></li>
+          <li><a href="https://www.fontenehusetbergen.no/?gad_source=1&gclid=Cj0KCQjw_qexBhCoARIsAFgBlev5UFNk88tDBGZzXLL45Vow0N0ci627hBhcpu3IiUnezqVAut9TGjUaAm-mEALw_wcB"><span>the house</span></a></li>
+          <li><a href="https://www.fontenehusetbergen.no/om-fontenehuset/"><span>om oss</span></a></li>
+          <li><a href="https://www.fontenehusetbergen.no/kontakt-oss/?gad_source=1&gclid=Cj0KCQjw_qexBhCoARIsAFgBletJ9ua62rCEMb19_ECE2ACjvWSBRDg6ST_Yi6eNbcD8tpWK1HS0dmwaAoQKEALw_wcB"><span>ta kontakt</span></a></li>
+          <li><a href="https://www.fontenehusetbergen.no/bli-medlem/?gad_source=1&gclid=Cj0KCQjw_qexBhCoARIsAFgBlesKGRvVgp8rINcUyM5C5cWMdpKrj-s9fJhhXcCI134-L7YrhlFLm-waAtVjEALw_wcB"><span>utforsk oss</span></a></li>
         </ul>
       </nav>
     
@@ -60,18 +55,23 @@
               id="taskInput">
             
       </div>
-      
-
-
           <button class="taskButton" 
-             id ="taskButton">add todo
+             id="taskButton">add todo
           </button>
     
       </form>
    
-    <ul id="taskList">
+    <ul id="taskList"
+        class="tas">
+
+      <div id ="taskListcontainer"
+           class="taskListcontainer">
+      
         <li class="newlistItam">walk the dog</li>
-      </ul>
+        <button>delete todo</button>
+        
+      </div>
+    </ul>
    </main>
 
 
@@ -79,6 +79,4 @@
 </html>
 
       
-    </main>
-  </body>
-</html>
+  

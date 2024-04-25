@@ -1,4 +1,3 @@
-console.log("just.like.that")
 
 const fruitbowl =  ["banana","orange","apple","grape"];
 console.log(fruitbowl);
@@ -7,7 +6,7 @@ console.log(fruitbowl[1]);
 console.log(fruitbowl[2]);
 
 
-// forloop that loops our Array
+
 
 for(
     //new variable called index that saves the number 0
@@ -22,8 +21,9 @@ for(
     {
         console.log(fruitbowl[index]);
         break;
-    };
 
+    };
+   
     //for( i = 0; i < fruitbowl.length; i++ ) {}
 
           
